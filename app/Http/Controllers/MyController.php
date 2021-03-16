@@ -9,11 +9,11 @@ use App\Dress;
 class MyController extends Controller
 {
     public function home(){
-        $data_shop = Dress::all();
-        $data = [
-            'dresses' => $data_shop
-        ];
         
+        $data = [
+            'saluto' => 'Welcome on Home Page of Shop'
+        ];
+
         return view('home', $data);
     }
 
@@ -21,5 +21,12 @@ class MyController extends Controller
         return view('contatti');
     }
 
-    
+    public function shop(){
+        $data_shop = Dress::all();
+        $data = [
+            'dresses' => $data_shop
+        ];
+
+        return view('shop', $data);
+    }
 }

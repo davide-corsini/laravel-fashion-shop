@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', 'MyController@home')->name('home-page');
 Route::get('/contacts', 'MyController@contact')->name('contact-page');
+Route::get('/shop', 'MyController@shop')->name('shop-page');
 
 
