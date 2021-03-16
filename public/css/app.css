@@ -10942,3 +10942,32 @@ a.text-dark:focus {
   }
 }
 
+img.poster {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+div.shop-cont {
+  max-width: 980px;
+  box-shadow: -23px -2px 12px 12px rgba(202, 202, 202, 0.95);
+}
+
+div.box {
+  width: calc(100%/4);
+  height: 350px;
+  border: 1px solid rgba(211, 211, 211, 0.5);
+  padding: 2%;
+  position: relative;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+p.price {
+  position: absolute;
+  top: 5px;
+  right: 2%;
+}
+
