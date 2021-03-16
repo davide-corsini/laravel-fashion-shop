@@ -8,12 +8,13 @@
 
             <div style="width: calc(100%/3); border: 1px solid rgba(211, 211, 211, 0.5); height: 200px;" class="box">
                 <img style="width: 80%; height: 80%;" src="{{$item['poster']}}" alt="">
-                <p>{{$item['name']}}</p>
-                <p>{{$item['brand']}}</p>
-                <p>{{$item['type']}}</p>
-                <p>{{$item['price']}}€</p>
+                <p>{{$item->name}}</p>
+                <p>{{$item->brand}}</p>
+                <p>{{$item->type}}</p>
+                <p>{{$item->price}}€</p>
 
             </div>
+
     
         
             
